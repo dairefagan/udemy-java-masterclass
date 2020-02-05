@@ -36,6 +36,10 @@ public class Main {
 		System.out.println("The account name is : " + marksAccount.getCustomerName() + ".");
 		System.out.println("The account balance is : €" + marksAccount.getCreditLimit()  + ".");
 		System.out.println("The account name is : " + marksAccount.getCustomerEmail() + "."); 
+		VIPCustomer elons2Account = new VIPCustomer("Elon Musk", 100_000_000);
+		
+		System.out.println("Comparing equals : " + elonsAccount.equals(elons2Account) + ".");
+		System.out.println("Comparing == : " + (elonsAccount == elons2Account) + ".");
 		
 	}
 

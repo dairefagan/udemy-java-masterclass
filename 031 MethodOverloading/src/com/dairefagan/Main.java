@@ -27,6 +27,9 @@ public class Main {
 		return score * 1000;
 	}
 	
+	// We overload the method by creating another version of it with a different
+	// number of parameters.
+	
 	public static int calculateScore(int score) {
 		
 		System.out.println("Unnamed player scored " + score + " points." );

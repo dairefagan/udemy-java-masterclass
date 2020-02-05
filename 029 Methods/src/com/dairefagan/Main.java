@@ -36,9 +36,15 @@ public class Main {
 			finalScore += 2000;
 			System.out.println("Your final score was " + finalScore);
 			return finalScore;
+			
+	// Must still return something if gameOver is false
+	
+	//	} else {
+	//		return -1;
+	//	  }
 		}
-		
-		// Must still return something if gameOver is false:
+	// else not required as if gameOver true, once finalScore is returned,
+	// the program jumps back to main.
 		
 		return -1;
 	}

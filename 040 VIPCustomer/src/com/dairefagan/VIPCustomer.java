@@ -55,6 +55,13 @@ public class VIPCustomer {
 		return customerEmail;
 	}
 	
-	
+	public boolean equals(Object o) {
+		if (o == null || !(o instanceof VIPCustomer)) {
+			return false;	
+		}
+		
+		VIPCustomer vc = (VIPCustomer) o;
+		return customerEmail == vc.customerEmail && customerName == vc.customerName;
+	}
 
 }

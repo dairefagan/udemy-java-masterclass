@@ -28,20 +28,19 @@ public class Main {
 		
 		previousResult = result;
 		result = result + 1;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after adding 1 is now " + result);
 		result++;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after result++ is now " + result);
 		result--;
-		System.out.println("Result is now " + result);
-		
+		System.out.println("Result after result-- is now " + result);
 		result += 2;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after result += 2 is now " + result);
 		result *= 10;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after result *= 10 is now " + result);
 		result -= 10;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after -=10 is now " + result);
 		result /= 10;
-		System.out.println("Result is now " + result);
+		System.out.println("Result after /= 10 is now " + result);
 		
 		boolean isAlien = true;
 		if (isAlien == true)
@@ -51,7 +50,7 @@ public class Main {
 		if (topScore < 100)
 			System.out.println("You got the high score!");
 		
-		int secondTopScore = 95;
+		int secondTopScore = 60;
 		if((topScore > secondTopScore) && (topScore < 100))
 			System.out.println("Greater than top score and less than 100");
 		
@@ -68,6 +67,9 @@ public class Main {
 		
 		isCar = true;
 		boolean wasCar = isCar ? true : false;
+		
+		// If isCar == true, assign true to wasCar, otherwise assign false.
+		
 		if(wasCar)
 		System.out.println("wasCar is true");
 		
