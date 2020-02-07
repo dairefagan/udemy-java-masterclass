@@ -57,7 +57,7 @@ public class Main {
 					System.out.println("Exiting loop.");
 					break;
 				}
-			}
+			}  
 		}
 		
 		
@@ -94,7 +94,7 @@ public class Main {
 		return true;
 	}
 	
-	// Alternative, less efficient method, to check for prime number:
+	// Alternatively, less efficient method, to check for prime number:
 	
 //	public static boolean isPrime(int n) {
 //		

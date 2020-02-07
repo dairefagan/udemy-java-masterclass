@@ -4,7 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		// While loops run until expression evaluates to false:
+		// While loops run until expression evaluates to false.
+		// We use them when we do not know how many times we want to loop
 		
 		int count = 1;
 		
