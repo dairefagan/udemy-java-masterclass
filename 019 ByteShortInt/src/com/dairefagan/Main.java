@@ -3,6 +3,18 @@ package com.dairefagan;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		// We instantiate variables when we create them:
+		
+		int x;
+		
+		// We initialise or declare when we give variables a value:
+		
+		x = 10;
+		
+		// We assign when we change the value to something new:
+		
+		x = 11;
 
 		// Longs have a width of 64
 		// Longs range from -9_223_372_036_854_775_808 to 9_223_372_036_854_775_807
