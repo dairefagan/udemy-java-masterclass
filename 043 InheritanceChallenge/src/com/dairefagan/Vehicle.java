@@ -10,46 +10,46 @@ package com.dairefagan;
 
 public class Vehicle {
 
-	private int wheels;
-	private int numberOfSeats;
-	private String colour;
-	
-	public Vehicle() {
-		
-	}
-	
-	public Vehicle(int wheels, int numberOfSeats, String colour) {
-		this.wheels = wheels;
-		this.numberOfSeats = numberOfSeats;
-		this.colour = colour;
-	}
-	
-	public void printDetails() {
-		System.out.println("Vehicle.printDetails called.");
-		System.out.println("The vehicle has " + wheels + " wheels.");
-		System.out.println("The vehicle has " + numberOfSeats + " seats. ");
-		System.out.println("The vehicle is colour " + colour + "." );
-		
-	}
+  private int wheels;
+  private int numberOfSeats;
+  private String colour;
 
-	public int getWheels() {
-		return wheels;
-	}
+  public Vehicle() {
 
-	public int getNumberOfSeats() {
-		return numberOfSeats;
-	}
+  }
 
-	public String getColour() {
-		return colour;
-	}
-	
-	public void move(int speed) {
-		
-		System.out.println("Vehicle.move() called. Vehicle is moving at " + speed + " KMPH.");
-		
-	}
-	
-	
+  public Vehicle(int wheels, int numberOfSeats, String colour) {
+    this.wheels = wheels;
+    this.numberOfSeats = numberOfSeats;
+    this.colour = colour;
+  }
+
+  public void printDetails() {
+    System.out.println("Vehicle.printDetails called.");
+    System.out.println("The vehicle has " + wheels + " wheels.");
+    System.out.println("The vehicle has " + numberOfSeats + " seats. ");
+    System.out.println("The vehicle is colour " + colour + ".");
+
+  }
+
+  public int getWheels() {
+    return wheels;
+  }
+
+  public int getNumberOfSeats() {
+    return numberOfSeats;
+  }
+
+  public String getColour() {
+    return colour;
+  }
+
+  public void move(int speed) {
+
+    System.out.println("Vehicle.move() called. Vehicle is moving at " + speed + " KMPH.");
+
+  }
+
+
 }
 

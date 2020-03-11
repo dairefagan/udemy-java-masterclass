@@ -11,36 +11,36 @@ package com.dairefagan;
 
 public class Main {
 
-	public static void main(String[] args) {
-		
-		VIPCustomer emptyAccount = new VIPCustomer();
-		
-		System.out.println("\n******************************************************\n");
-		
-		System.out.println("The account name is : " + emptyAccount.getCustomerName() + ".");
-		System.out.println("The account balance is : €" + emptyAccount.getCreditLimit()  + ".");
-		System.out.println("The account name is : " + emptyAccount.getCustomerEmail() + ".");
-		
-		VIPCustomer elonsAccount = new VIPCustomer("Elon Musk", 100_000_000);
-		
-		System.out.println("\n******************************************************\n");
-		
-		System.out.println("The account name is : " + elonsAccount.getCustomerName() + ".");
-		System.out.println("The account balance is : €" + elonsAccount.getCreditLimit()  + ".");
-		System.out.println("The account name is : " + elonsAccount.getCustomerEmail() + "."); 
-		
-		System.out.println("\n******************************************************\n");
-		
-		VIPCustomer marksAccount = new VIPCustomer("Mark Zuckerberg", 150_000_000, "mark@facebook.com");
-		
-		System.out.println("The account name is : " + marksAccount.getCustomerName() + ".");
-		System.out.println("The account balance is : €" + marksAccount.getCreditLimit()  + ".");
-		System.out.println("The account name is : " + marksAccount.getCustomerEmail() + "."); 
-		VIPCustomer elons2Account = new VIPCustomer("Elon Musk", 100_000_000);
-		
-		System.out.println("Comparing equals : " + elonsAccount.equals(elons2Account) + ".");
-		System.out.println("Comparing == : " + (elonsAccount == elons2Account) + ".");
-		
-	}
+  public static void main(String[] args) {
+
+    VIPCustomer emptyAccount = new VIPCustomer();
+
+    System.out.println("\n******************************************************\n");
+
+    System.out.println("The account name is : " + emptyAccount.getCustomerName() + ".");
+    System.out.println("The account balance is : €" + emptyAccount.getCreditLimit() + ".");
+    System.out.println("The account name is : " + emptyAccount.getCustomerEmail() + ".");
+
+    VIPCustomer elonsAccount = new VIPCustomer("Elon Musk", 100_000_000);
+
+    System.out.println("\n******************************************************\n");
+
+    System.out.println("The account name is : " + elonsAccount.getCustomerName() + ".");
+    System.out.println("The account balance is : €" + elonsAccount.getCreditLimit() + ".");
+    System.out.println("The account name is : " + elonsAccount.getCustomerEmail() + ".");
+
+    System.out.println("\n******************************************************\n");
+
+    VIPCustomer marksAccount = new VIPCustomer("Mark Zuckerberg", 150_000_000, "mark@facebook.com");
+
+    System.out.println("The account name is : " + marksAccount.getCustomerName() + ".");
+    System.out.println("The account balance is : €" + marksAccount.getCreditLimit() + ".");
+    System.out.println("The account name is : " + marksAccount.getCustomerEmail() + ".");
+    VIPCustomer elons2Account = new VIPCustomer("Elon Musk", 100_000_000);
+
+    System.out.println("Comparing equals : " + elonsAccount.equals(elons2Account) + ".");
+    System.out.println("Comparing == : " + (elonsAccount == elons2Account) + ".");
+
+  }
 
 }
